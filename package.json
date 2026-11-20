@@ -1,0 +1,15 @@
+{
+  "name": "web-crawler-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "node crawler/mock-server.js",
+    "seq": "node crawler/sequential.js",
+    "naive": "node crawler/naive-parallel.js",
+    "bounded": "node crawler/bounded.js",
+    "warmup": "node warmup.js"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0"
+  }
+}
